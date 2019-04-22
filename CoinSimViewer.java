@@ -7,6 +7,9 @@ import javax.swing.JFrame;
 public class CoinSimViewer {
 	public static void main(String args[]) {
 		
+//Show instructions to start:
+		instructions();
+		
 //define height and width of the frame:
 		int frameH = 1000;
 		int frameW = 850;
@@ -38,4 +41,12 @@ public class CoinSimViewer {
 		frame.setVisible(true);
 			
 	}
+	
+	//tells users what does this simulator do and how to use it:
+	public static void instructions() {
+		System.out.println("Welcome to coin toss simulator!");
+		System.out.println("This program gives statical results of tossing a lot of coins.");
+		System.out.println("Please enter times of tossing you want, results will appear as graph: ");
+	}
 }
+
