@@ -1,3 +1,5 @@
+package HW1;
+
 import java.util.Scanner;
 import javax.swing.JFrame;
 
@@ -30,7 +32,7 @@ public class CoinSimViewer {
 //draw frame and the bars:
 		JFrame frame = new JFrame();
 		frame.setSize(frameW,frameH);
-		frame.setTitle("CoinSim");
+		frame.setTitle("Tossing Statistics:");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		CoinSimComponent coinSim = new CoinSimComponent(trialTimesCarrier, frameW, frameH);
