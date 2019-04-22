@@ -3,8 +3,6 @@
 //Name:Zailin Yuan
 //USC Net ID: 7247888150
 
-package HW1;
-
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
