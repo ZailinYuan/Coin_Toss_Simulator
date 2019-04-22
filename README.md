@@ -5,4 +5,7 @@ Discribes:
   
   
 How to run it:
-  1. 
+  1. Using cmd: cd to the file storing these java files.
+  2. Compile: type in cmd "javac *.java"
+  3. Run: "CoinSimViewer.java" 
+  
